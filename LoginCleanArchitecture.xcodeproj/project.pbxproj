@@ -7,16 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E05BFC4F273C0527003ECAFC /* LoginUserCaseFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05BFC4E273C0527003ECAFC /* LoginUserCaseFactory.swift */; };
+		E05BFC50273C0527003ECAFC /* LoginUserCaseFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05BFC4E273C0527003ECAFC /* LoginUserCaseFactory.swift */; };
+		E05BFC52273C053C003ECAFC /* LoginUseCaseFactoryTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05BFC51273C053C003ECAFC /* LoginUseCaseFactoryTest.swift */; };
+		E05BFC53273C09B1003ECAFC /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E076B86327393324002996F6 /* LoginPresenter.swift */; };
+		E05BFC54273C09BA003ECAFC /* CrashlyticsLoginTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = E076B866273933AB002996F6 /* CrashlyticsLoginTracker.swift */; };
+		E05BFC55273C09BD003ECAFC /* FirebaseLoginTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = E076B868273933D9002996F6 /* FirebaseLoginTracker.swift */; };
 		E076B83C27391D99002996F6 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = E076B83B27391D99002996F6 /* Tests_iOS.swift */; };
 		E076B83E27391D99002996F6 /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E076B83D27391D99002996F6 /* Tests_iOSLaunchTests.swift */; };
-		E076B84827391D99002996F6 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = E076B84727391D99002996F6 /* Tests_macOS.swift */; };
-		E076B84A27391D99002996F6 /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E076B84927391D99002996F6 /* Tests_macOSLaunchTests.swift */; };
 		E076B84B27391D99002996F6 /* LoginCleanArchitectureApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E076B82327391D98002996F6 /* LoginCleanArchitectureApp.swift */; };
 		E076B84C27391D99002996F6 /* LoginCleanArchitectureApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E076B82327391D98002996F6 /* LoginCleanArchitectureApp.swift */; };
 		E076B84D27391D99002996F6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E076B82427391D98002996F6 /* ContentView.swift */; };
 		E076B84E27391D99002996F6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E076B82427391D98002996F6 /* ContentView.swift */; };
 		E076B84F27391D99002996F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E076B82527391D98002996F6 /* Assets.xcassets */; };
 		E076B85027391D99002996F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E076B82527391D98002996F6 /* Assets.xcassets */; };
+		E076B86127391E91002996F6 /* LoginUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = E076B86027391E91002996F6 /* LoginUseCase.swift */; };
+		E076B86427393324002996F6 /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E076B86327393324002996F6 /* LoginPresenter.swift */; };
+		E076B867273933AB002996F6 /* CrashlyticsLoginTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = E076B866273933AB002996F6 /* CrashlyticsLoginTracker.swift */; };
+		E076B869273933D9002996F6 /* FirebaseLoginTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = E076B868273933D9002996F6 /* FirebaseLoginTracker.swift */; };
+		E076B86B273935ED002996F6 /* LoginUserCaseOutputComposerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E076B86A273935ED002996F6 /* LoginUserCaseOutputComposerTests.swift */; };
+		E076B86E27393764002996F6 /* LoginUseCaseOutputComposer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E076B86D27393764002996F6 /* LoginUseCaseOutputComposer.swift */; };
+		E0F5FE0E273AAD43005074B5 /* LoginUseCaseOutputComposer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E076B86D27393764002996F6 /* LoginUseCaseOutputComposer.swift */; };
+		E0F5FE0F273AAD62005074B5 /* LoginUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = E076B86027391E91002996F6 /* LoginUseCase.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,28 +39,25 @@
 			remoteGlobalIDString = E076B82927391D99002996F6;
 			remoteInfo = "LoginCleanArchitecture (iOS)";
 		};
-		E076B84427391D99002996F6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E076B81E27391D98002996F6 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E076B82F27391D99002996F6;
-			remoteInfo = "LoginCleanArchitecture (macOS)";
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E05BFC4E273C0527003ECAFC /* LoginUserCaseFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginUserCaseFactory.swift; sourceTree = "<group>"; };
+		E05BFC51273C053C003ECAFC /* LoginUseCaseFactoryTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginUseCaseFactoryTest.swift; sourceTree = "<group>"; };
 		E076B82327391D98002996F6 /* LoginCleanArchitectureApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginCleanArchitectureApp.swift; sourceTree = "<group>"; };
 		E076B82427391D98002996F6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E076B82527391D98002996F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E076B82A27391D99002996F6 /* LoginCleanArchitecture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginCleanArchitecture.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E076B83027391D99002996F6 /* LoginCleanArchitecture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginCleanArchitecture.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E076B83227391D99002996F6 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		E076B83727391D99002996F6 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E076B83B27391D99002996F6 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
 		E076B83D27391D99002996F6 /* Tests_iOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOSLaunchTests.swift; sourceTree = "<group>"; };
-		E076B84327391D99002996F6 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E076B84727391D99002996F6 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
-		E076B84927391D99002996F6 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		E076B86027391E91002996F6 /* LoginUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginUseCase.swift; sourceTree = "<group>"; };
+		E076B86327393324002996F6 /* LoginPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPresenter.swift; sourceTree = "<group>"; };
+		E076B866273933AB002996F6 /* CrashlyticsLoginTracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrashlyticsLoginTracker.swift; sourceTree = "<group>"; };
+		E076B868273933D9002996F6 /* FirebaseLoginTracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseLoginTracker.swift; sourceTree = "<group>"; };
+		E076B86A273935ED002996F6 /* LoginUserCaseOutputComposerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginUserCaseOutputComposerTests.swift; sourceTree = "<group>"; };
+		E076B86D27393764002996F6 /* LoginUseCaseOutputComposer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginUseCaseOutputComposer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,13 +82,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E076B84027391D99002996F6 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -87,9 +89,7 @@
 			isa = PBXGroup;
 			children = (
 				E076B82227391D98002996F6 /* Shared */,
-				E076B83127391D99002996F6 /* macOS */,
 				E076B83A27391D99002996F6 /* Tests iOS */,
-				E076B84627391D99002996F6 /* Tests macOS */,
 				E076B82B27391D99002996F6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -97,6 +97,10 @@
 		E076B82227391D98002996F6 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				E076B86C27393759002996F6 /* Main */,
+				E076B86527393389002996F6 /* Analytics */,
+				E076B86227393313002996F6 /* UI */,
+				E076B85F27391E7D002996F6 /* Business */,
 				E076B82327391D98002996F6 /* LoginCleanArchitectureApp.swift */,
 				E076B82427391D98002996F6 /* ContentView.swift */,
 				E076B82527391D98002996F6 /* Assets.xcassets */,
@@ -110,17 +114,8 @@
 				E076B82A27391D99002996F6 /* LoginCleanArchitecture.app */,
 				E076B83027391D99002996F6 /* LoginCleanArchitecture.app */,
 				E076B83727391D99002996F6 /* Tests iOS.xctest */,
-				E076B84327391D99002996F6 /* Tests macOS.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		E076B83127391D99002996F6 /* macOS */ = {
-			isa = PBXGroup;
-			children = (
-				E076B83227391D99002996F6 /* macOS.entitlements */,
-			);
-			path = macOS;
 			sourceTree = "<group>";
 		};
 		E076B83A27391D99002996F6 /* Tests iOS */ = {
@@ -128,17 +123,44 @@
 			children = (
 				E076B83B27391D99002996F6 /* Tests_iOS.swift */,
 				E076B83D27391D99002996F6 /* Tests_iOSLaunchTests.swift */,
+				E076B86A273935ED002996F6 /* LoginUserCaseOutputComposerTests.swift */,
+				E05BFC51273C053C003ECAFC /* LoginUseCaseFactoryTest.swift */,
 			);
 			path = "Tests iOS";
 			sourceTree = "<group>";
 		};
-		E076B84627391D99002996F6 /* Tests macOS */ = {
+		E076B85F27391E7D002996F6 /* Business */ = {
 			isa = PBXGroup;
 			children = (
-				E076B84727391D99002996F6 /* Tests_macOS.swift */,
-				E076B84927391D99002996F6 /* Tests_macOSLaunchTests.swift */,
+				E076B86027391E91002996F6 /* LoginUseCase.swift */,
 			);
-			path = "Tests macOS";
+			path = Business;
+			sourceTree = "<group>";
+		};
+		E076B86227393313002996F6 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				E076B86327393324002996F6 /* LoginPresenter.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		E076B86527393389002996F6 /* Analytics */ = {
+			isa = PBXGroup;
+			children = (
+				E076B866273933AB002996F6 /* CrashlyticsLoginTracker.swift */,
+				E076B868273933D9002996F6 /* FirebaseLoginTracker.swift */,
+			);
+			path = Analytics;
+			sourceTree = "<group>";
+		};
+		E076B86C27393759002996F6 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				E076B86D27393764002996F6 /* LoginUseCaseOutputComposer.swift */,
+				E05BFC4E273C0527003ECAFC /* LoginUserCaseFactory.swift */,
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,24 +218,6 @@
 			productReference = E076B83727391D99002996F6 /* Tests iOS.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
-		E076B84227391D99002996F6 /* Tests macOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E076B85C27391D99002996F6 /* Build configuration list for PBXNativeTarget "Tests macOS" */;
-			buildPhases = (
-				E076B83F27391D99002996F6 /* Sources */,
-				E076B84027391D99002996F6 /* Frameworks */,
-				E076B84127391D99002996F6 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				E076B84527391D99002996F6 /* PBXTargetDependency */,
-			);
-			name = "Tests macOS";
-			productName = "Tests macOS";
-			productReference = E076B84327391D99002996F6 /* Tests macOS.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -234,10 +238,6 @@
 						CreatedOnToolsVersion = 13.0;
 						TestTargetID = E076B82927391D99002996F6;
 					};
-					E076B84227391D99002996F6 = {
-						CreatedOnToolsVersion = 13.0;
-						TestTargetID = E076B82F27391D99002996F6;
-					};
 				};
 			};
 			buildConfigurationList = E076B82127391D98002996F6 /* Build configuration list for PBXProject "LoginCleanArchitecture" */;
@@ -256,7 +256,6 @@
 				E076B82927391D99002996F6 /* LoginCleanArchitecture (iOS) */,
 				E076B82F27391D99002996F6 /* LoginCleanArchitecture (macOS) */,
 				E076B83627391D99002996F6 /* Tests iOS */,
-				E076B84227391D99002996F6 /* Tests macOS */,
 			);
 		};
 /* End PBXProject section */
@@ -285,13 +284,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E076B84127391D99002996F6 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -299,8 +291,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E076B867273933AB002996F6 /* CrashlyticsLoginTracker.swift in Sources */,
+				E05BFC4F273C0527003ECAFC /* LoginUserCaseFactory.swift in Sources */,
+				E076B86E27393764002996F6 /* LoginUseCaseOutputComposer.swift in Sources */,
+				E076B86427393324002996F6 /* LoginPresenter.swift in Sources */,
 				E076B84D27391D99002996F6 /* ContentView.swift in Sources */,
+				E076B869273933D9002996F6 /* FirebaseLoginTracker.swift in Sources */,
 				E076B84B27391D99002996F6 /* LoginCleanArchitectureApp.swift in Sources */,
+				E076B86127391E91002996F6 /* LoginUseCase.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,17 +315,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E05BFC53273C09B1003ECAFC /* LoginPresenter.swift in Sources */,
+				E05BFC55273C09BD003ECAFC /* FirebaseLoginTracker.swift in Sources */,
+				E0F5FE0E273AAD43005074B5 /* LoginUseCaseOutputComposer.swift in Sources */,
+				E05BFC50273C0527003ECAFC /* LoginUserCaseFactory.swift in Sources */,
+				E076B86B273935ED002996F6 /* LoginUserCaseOutputComposerTests.swift in Sources */,
 				E076B83E27391D99002996F6 /* Tests_iOSLaunchTests.swift in Sources */,
 				E076B83C27391D99002996F6 /* Tests_iOS.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E076B83F27391D99002996F6 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E076B84A27391D99002996F6 /* Tests_macOSLaunchTests.swift in Sources */,
-				E076B84827391D99002996F6 /* Tests_macOS.swift in Sources */,
+				E0F5FE0F273AAD62005074B5 /* LoginUseCase.swift in Sources */,
+				E05BFC52273C053C003ECAFC /* LoginUseCaseFactoryTest.swift in Sources */,
+				E05BFC54273C09BA003ECAFC /* CrashlyticsLoginTracker.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,11 +335,6 @@
 			isa = PBXTargetDependency;
 			target = E076B82927391D99002996F6 /* LoginCleanArchitecture (iOS) */;
 			targetProxy = E076B83827391D99002996F6 /* PBXContainerItemProxy */;
-		};
-		E076B84527391D99002996F6 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = E076B82F27391D99002996F6 /* LoginCleanArchitecture (macOS) */;
-			targetProxy = E076B84427391D99002996F6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -465,8 +457,9 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = MKUKJJ4UYW;
+				DEVELOPMENT_TEAM = 6D7X34XDMX;
 				ENABLE_PREVIEWS = YES;
+				EXCLUDED_ARCHS = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -479,7 +472,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.viral7chauhan.LoginCleanArchitecture;
+				PRODUCT_BUNDLE_IDENTIFIER = com.viral7chauhan.LoginCleanArchitecture1;
 				PRODUCT_NAME = LoginCleanArchitecture;
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -495,8 +488,9 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = MKUKJJ4UYW;
+				DEVELOPMENT_TEAM = 6D7X34XDMX;
 				ENABLE_PREVIEWS = YES;
+				EXCLUDED_ARCHS = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -509,7 +503,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.viral7chauhan.LoginCleanArchitecture;
+				PRODUCT_BUNDLE_IDENTIFIER = com.viral7chauhan.LoginCleanArchitecture1;
 				PRODUCT_NAME = LoginCleanArchitecture;
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -582,6 +576,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = MKUKJJ4UYW;
+				EXCLUDED_ARCHS = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -607,6 +602,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = MKUKJJ4UYW;
+				EXCLUDED_ARCHS = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -623,56 +619,6 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = "LoginCleanArchitecture (iOS)";
 				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		E076B85D27391D99002996F6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = MKUKJJ4UYW;
-				GENERATE_INFOPLIST_FILE = YES;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 11.3;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.viral7chauhan.Tests-macOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = "LoginCleanArchitecture (macOS)";
-			};
-			name = Debug;
-		};
-		E076B85E27391D99002996F6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = MKUKJJ4UYW;
-				GENERATE_INFOPLIST_FILE = YES;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 11.3;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.viral7chauhan.Tests-macOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = "LoginCleanArchitecture (macOS)";
 			};
 			name = Release;
 		};
@@ -711,15 +657,6 @@
 			buildConfigurations = (
 				E076B85A27391D99002996F6 /* Debug */,
 				E076B85B27391D99002996F6 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E076B85C27391D99002996F6 /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E076B85D27391D99002996F6 /* Debug */,
-				E076B85E27391D99002996F6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

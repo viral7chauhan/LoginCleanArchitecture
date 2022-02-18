@@ -17,7 +17,7 @@ class Tests_iOSLaunchTests: XCTestCase {
         continueAfterFailure = false
     }
 
-    func testLaunch() throws {
+    func skiptestLaunch() throws {
         let app = XCUIApplication()
         app.launch()
 
